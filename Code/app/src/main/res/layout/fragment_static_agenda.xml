@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.finale.FragmentAgenda">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp">
+        <CalendarView
+            android:id="@+id/idCalendrier"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+        </CalendarView>
+    </ScrollView>
+
+
+</FrameLayout>

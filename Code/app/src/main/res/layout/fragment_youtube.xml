@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout
+    tools:context="com.example.hp.finale.MainActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/youtube_shape">
+
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/barre_shape"
+        android:id="@+id/barre"
+        android:layout_margin="7dp"
+
+
+        android:hint="@string/hint1"
+        android:paddingLeft="20dp" />
+
+    <ImageButton
+        android:id="@+id/button"
+        android:layout_marginLeft="-60dp"
+        style="?android:buttonBarButtonStyle"
+        android:layout_toRightOf="@id/barre"
+        android:paddingBottom="5dp"
+        android:src="@drawable/loupe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/vp_pager"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/barre"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/listeVideos"/>
+
+
+</RelativeLayout>
